@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -419,7 +420,7 @@
             shareSection.style.display = 'block';
 
             // Modified message for Dipawali and to send to 3 people (WhatsApp will handle the sharing)
-            const whatsAppMessage = `${name} sends you Shubh Dipawali greetings! 鉁煪� Wishing you a very Happy and Prosperous Dipawali! Click the link to view this special greeting: ${generatedUrl}`;
+            const whatsAppMessage = `${name} sends you Shubh Dipawali greetings! 鉁煪� Wishing you a very Happy and Prosperous Dipawali! Click the link to view this special greeting: ${generatedUrl}`;
             const encodedMessage = encodeURIComponent(whatsAppMessage);
             const whatsappUrl = `https://api.whatsapp.com/send?text=${encodedMessage}`;
 
